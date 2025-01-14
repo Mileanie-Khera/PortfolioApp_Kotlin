@@ -18,4 +18,5 @@
     <string name="linkedin">linkedIn</string>
     <string name="instagram">instagram</string>
     <string name="facebook">facebook</string>
+    <string name="portfolio_image">Portfolio Image</string>
 </resources>

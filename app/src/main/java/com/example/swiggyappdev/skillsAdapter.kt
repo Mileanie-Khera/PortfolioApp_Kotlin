@@ -10,7 +10,7 @@ import com.google.android.material.imageview.ShapeableImageView
 class skillsAdapter(private val skillsList : ArrayList<Skills>) :
     RecyclerView.Adapter<skillsAdapter.MyViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        var itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
         return MyViewHolder(itemView)
     }
 

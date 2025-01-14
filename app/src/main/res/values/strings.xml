@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+    <string name="name">Mileanie Khera</string>
+    <string name="designation">Frontend Developer</string>
+    <string name="skills">Skills</string>
+    <string name="experience">Experience</string>
+    <string name="education">Education</string>
+    <string name="achievement">Achievements</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="march_2023">March - 2023</string>
+    <string name="geeksforgeeks">GeeksForGeeks</string>
+    <string name="contact_me">CONTACT ME</string>
+    <!-- Strings related to contact page -->
+    <string name="prompt_email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="message">Message</string>
+    <string name="submit">Submit</string>
+    <string name="linkedin">linkedIn</string>
+    <string name="instagram">instagram</string>
+    <string name="facebook">facebook</string>
+</resources>

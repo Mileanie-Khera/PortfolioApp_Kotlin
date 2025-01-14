@@ -12,7 +12,7 @@ class achievementsAdapter (private val achievemenstList : ArrayList<Achievements
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): achievementsAdapter.MyViewHolder {
+    ): MyViewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item, parent, false)
         return MyViewHolder(itemView)
     }

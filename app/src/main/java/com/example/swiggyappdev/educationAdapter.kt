@@ -11,7 +11,7 @@ class educationAdapter(private val educationList : ArrayList<Education>) :
     RecyclerView.Adapter<educationAdapter.MyViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        var itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item,parent,false)
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item,parent,false)
         return MyViewHolder(itemView)
     }
 
@@ -19,7 +19,7 @@ class educationAdapter(private val educationList : ArrayList<Education>) :
         return educationList.size
     }
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        var currentItem = educationList[position]
+        val currentItem = educationList[position]
         holder.titleImage.setImageResource(currentItem.titleImage)
         holder.heading.text = currentItem.heading
         holder.description.text = currentItem.description

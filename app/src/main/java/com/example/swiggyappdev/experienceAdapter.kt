@@ -11,7 +11,7 @@ class experienceAdapter(private val experienceList : ArrayList<Experience>) :
     RecyclerView.Adapter<experienceAdapter.MyViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        var itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item,parent,false)
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.list_item,parent,false)
         return MyViewHolder(itemView)
     }
 
@@ -19,7 +19,7 @@ class experienceAdapter(private val experienceList : ArrayList<Experience>) :
         return experienceList.size
     }
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        var currentItem = experienceList[position]
+        val currentItem = experienceList[position]
         holder.titleImage.setImageResource(currentItem.titleImage)
         holder.heading.text = currentItem.heading
         holder.description.text = currentItem.description

@@ -40,7 +40,7 @@
             android:layout_marginTop="60dp"
             android:textSize="15sp"
             android:textStyle="bold"
-            android:layout_gravity="right"
+            android:layout_gravity="end"
             android:textColor="@color/blue"
             android:text="@string/dark_mode"
             tools:ignore="VisualLintButtonSize" />
@@ -50,6 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_marginTop="20dp"
+            android:contentDescription="@string/portfolio_image"
             android:src="@drawable/mileaniekheraprofile" />
 
         <TextView

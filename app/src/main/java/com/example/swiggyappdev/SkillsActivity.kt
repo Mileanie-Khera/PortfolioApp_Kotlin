@@ -1,11 +1,6 @@
 package com.example.swiggyappdev
 
-import android.content.ClipDescription
-import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
-import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView

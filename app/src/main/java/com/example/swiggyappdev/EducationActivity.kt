@@ -1,12 +1,7 @@
 package com.example.swiggyappdev
 
-import android.graphics.Color
 import android.os.Bundle
-import android.widget.LinearLayout
-import android.widget.LinearLayout.LayoutParams
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.setMargins
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -67,7 +62,7 @@ class EducationActivity : AppCompatActivity(){
     }
     private fun getUserData(){
         for (i in imageId.indices){
-            var education = Education(imageId[i],heading[i],description[i])
+            val education = Education(imageId[i],heading[i],description[i])
             newArrayList.add(education)
         }
         newRecyclerView.adapter = educationAdapter(newArrayList)

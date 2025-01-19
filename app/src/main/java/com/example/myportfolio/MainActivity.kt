@@ -1,4 +1,4 @@
-package com.example.swiggyappdev
+package com.example.myportfolio
 
 import android.content.Intent
 import android.os.Bundle

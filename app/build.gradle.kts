@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.swiggyappdev"
+    namespace = "com.example.myportfolio"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.swiggyappdev"
+        applicationId = "com.example.myportfolio"
         minSdk = 30
         targetSdk = 34
         versionCode = 1

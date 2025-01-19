@@ -1,4 +1,4 @@
-package com.example.swiggyappdev
+package com.example.myportfolio
 
 data class Achievements(
     var titleImage : Int,

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.SwiggyAppDev" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+    <style name="Theme.MyPortfolio" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
     <style name="RoundedCorner" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">10dp</item>

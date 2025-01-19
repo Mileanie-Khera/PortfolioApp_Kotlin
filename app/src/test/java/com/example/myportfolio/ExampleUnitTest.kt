@@ -1,4 +1,4 @@
-package com.example.swiggyappdev
+package com.example.myportfolio
 
 import org.junit.Test
 
